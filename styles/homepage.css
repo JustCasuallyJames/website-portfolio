@@ -9,6 +9,22 @@ body{
     margin: 0;
     padding: 0;
 }
+.homepage-main-content {
+    background-color: transparent;
+}
+
+.homepage-main-content-image {
+    border-radius: 50%;
+}
+
+.homepage-main-content #inner {
+    border: black solid;
+    margin: 8rem ;
+}
+
+.homepage-main-content #inner img{
+    padding: 3rem;
+}
 
 .header-title {
     font: 50;
@@ -28,6 +44,7 @@ body{
 
 .nav-link {
     font-size: 1.8rem;
+    color: black;
 }
 
 a.nav-link:hover {
