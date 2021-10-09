@@ -1,35 +1,67 @@
+* {
+    box-sizing: border-box;
+
+}
+html{
+    background-color: #9A97AA;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .header-title {
     font: 50;
     text-align: center;
 }
 
-.navbar{
-    text-align: center;
+.navbar {
+    background-color: #F5F3F3;
 }
+
+.navbar-image-logo {
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+
+.nav-link {
+    font-size: 1.8rem;
+}
+
+a.nav-link:hover {
+    color: #9A4754 !important;
+    font-weight: 550;
+}
+
+
 .about-me-brief{
     text-align: center;
 }
+
+.navbar-links ul{
+    margin: 0;
+    padding: 15px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.navbar-links li {
+    list-style: none;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 5px;    
+}
+
+.navbar-links ul li a {
+    font-size: 30px;
+    text-align: center;
+}
+
 /*
 LOHA
 */
-a:link {
-    text-decoration: none;
-}
 
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color:aqua;  
-}
-
-li {
-    display: inline;
-    padding: 5px;
-}
-
-a{
-    font-size: 25px;
-}
 
