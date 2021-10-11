@@ -5,30 +5,39 @@
 html{
     background-color: #9A97AA;
 }
+
 body{
     margin: 0;
     padding: 0;
 }
+
 .homepage-main-content {
-    background-color: transparent;
+    background-color: #9A97AA;
 }
 
 .homepage-main-content-image {
     border-radius: 50%;
-}
-
-.homepage-main-content #inner {
-    border: black solid;
-    margin: 8rem ;
-}
-
-.homepage-main-content #inner img{
-    padding: 3rem;
+    display: block;
+    margin: auto;
 }
 
 .header-title {
-    font: 50;
+    font-size: 50;
     text-align: center;
+    display: inline;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-6 {
+    padding: 2rem;
+}
+
+.row {
+    margin: 15px !important;
+    margin-top: 0px !important;
+
 }
 
 .navbar {

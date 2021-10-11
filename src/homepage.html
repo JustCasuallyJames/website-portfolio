@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>James Vo - Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../styles/homepage.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -18,29 +19,24 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="projects.html">Projects</a>
                 </div>
             </div>
         </nav>
         <div class="homepage-main-content">
-            <div id="inner">
-                <img src="../misc/james.jpg" alt="A professional taken photo of James Vo" class="homepage-main-content-image">
-                <div class="d-flex flex-column">
-                    <h1 class="header-title">
-                        Hi! My name is James Vo.
-                    </h1>
-                    <h2 class="about-me-brief">
-                        Computer Science student with a passion for fullstack development.
-                    </h2>
-                    <h2 class="about-me-brief">
-                        Studying at University of California, Irvine
-                    </h2>  
+            <div class="row">
+                <div class="col-6">
+                    <img src="../misc/james.jpg" alt="A professional taken photo of James Vo" class="homepage-main-content-image">
                 </div>
-                
+                <div class="col-6">
+                    <h2 class="header-title">
+                        Hi! My name is <strong>James Vo</strong>.
+                        <br><br>
+                        I am a Computer Science student at the University of California, Irvine, with a passion for fullstack development.
+                    </h2>
+                </div>        
             </div>
-            
         </div>
     </body>
 </html>
