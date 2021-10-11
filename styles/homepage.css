@@ -11,6 +11,11 @@ body{
     padding: 0;
 }
 
+img {
+    height: auto;
+    width: 100%;
+}
+
 .homepage-main-content {
     background-color: #9A97AA;
 }
@@ -19,19 +24,19 @@ body{
     border-radius: 50%;
     display: block;
     margin: auto;
+    padding: 2rem;
 }
 
 .header-title {
-    font-size: 50;
+    font-size: 65;
     text-align: center;
-    display: inline;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    padding: 15% 0;
+    margin: 0%;
 }
 
 .col-6 {
-    padding: 2rem;
+    padding: 15px;
 }
 
 .row {
@@ -42,6 +47,7 @@ body{
 
 .navbar {
     background-color: #F5F3F3;
+    padding: 0rem !important;
 }
 
 .navbar-image-logo {
