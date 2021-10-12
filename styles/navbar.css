@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #F5F3F3;
+    padding: 0rem !important;
+}
+
+.navbar img {
+    margin-left: 1rem;
+}
+
+.navbar-image-logo {
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+
+.nav-link {
+    font-size: 1.8rem;
+    color: black;
+}
+
+a.nav-link:hover {
+    color: #9A4754 !important;
+    font-weight: 550;
+}

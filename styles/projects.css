@@ -1,0 +1,31 @@
+html, body{
+    background-color: #9A97AA !important;
+}
+
+
+.fa-color {
+    color: black;
+}
+
+.card a:hover {
+    text-decoration: none;
+    color: #36426C;
+}
+
+.card a {
+    color: #A87B70;
+}
+
+.project-image {
+    height: 250px;
+}
+
+.project-image .card-img-top {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.card-deck {
+    margin: 2rem 0rem 0rem 0rem !important;
+}
