@@ -11,9 +11,9 @@ body{
     padding: 0;
 }
 
-img {
+/* img {
     width: 100%;
-}
+} */
 
 .homepage-main-content {
     background-color: #9A97AA;
@@ -60,8 +60,32 @@ img {
     text-align: center;
 }
 
-/*
-LOHA
-*/
+/* media rules */
 
+/* small screens */
+@media screen and (max-width: 766px) {
+    .header-title {
+        padding: 0;
+    }
+    
+    .navbar-toggler {
+        margin-right: 1rem;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+}
+
+/* medium screens */
+@media screen and (min-width: 766px) and (max-width: 990px){
+    .navbar-toggler {
+        margin-right: 1rem;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+    
+}
 

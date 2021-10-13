@@ -12,12 +12,21 @@ html, body{
     color: #36426C;
 }
 
+.row {
+    justify-content: center;
+}
+
+.card {
+    margin: 1rem 0rem 1rem 0rem;
+}
+
 .card a {
     color: #A87B70;
 }
 
 .project-image {
-    height: 250px;
+    margin:0%;
+    background-size: contain;
 }
 
 .project-image .card-img-top {
@@ -26,6 +35,40 @@ html, body{
     width: 100%;
 }
 
+.col-lg-3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 .card-deck {
     margin: 2rem 0rem 0rem 0rem !important;
+}
+
+/* media rules */
+
+/* small screens */
+@media screen and (max-width: 766px) {
+    .header-title {
+        padding: 0;
+    }
+    
+    .navbar-toggler {
+        margin-right: 1rem;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+}
+
+/* medium screens */
+@media screen and (min-width: 766px) and (max-width: 990px){
+    .navbar-toggler {
+        margin-right: 1rem;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+    
 }
